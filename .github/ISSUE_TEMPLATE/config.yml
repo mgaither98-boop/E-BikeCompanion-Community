@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: E-Bike Companion website and guides
+    url: https://ebike.magservers.org/guides/
+    about: Read setup and safe troubleshooting guidance before reporting.
+  - name: Privacy policy
+    url: https://ebike.magservers.org/privacy/
+    about: Review the privacy information before sharing a public report.
+  - name: Contribution and safety rules
+    url: https://github.com/mgaither98-boop/E-BikeCompanion-Community/blob/main/CONTRIBUTING.md
+    about: Learn what not to share and how compatibility claims are reviewed.
