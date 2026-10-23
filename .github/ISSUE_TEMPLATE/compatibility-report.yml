@@ -1,8 +1,6 @@
 name: Bike compatibility report
 description: Submit observations about a bike, display or controller. Reports are not automatically verified.
 title: "[Compatibility]: "
-labels:
-  - compatibility
 body:
   - type: markdown
     attributes:
