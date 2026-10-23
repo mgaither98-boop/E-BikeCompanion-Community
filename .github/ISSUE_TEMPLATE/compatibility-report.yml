@@ -1,0 +1,76 @@
+name: Bike compatibility report
+description: Submit observations about a bike, display or controller. Reports are not automatically verified.
+title: "[Compatibility]: "
+labels:
+  - compatibility
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public report. Share only details you are comfortable making public. Never include GPS routes, exact location, serial numbers, credentials or raw diagnostic exports. Do not test while riding.
+  - type: input
+    id: bike
+    attributes:
+      label: Bike make, exact model and model year
+      placeholder: "Make / model / year"
+    validations:
+      required: true
+  - type: input
+    id: display
+    attributes:
+      label: Display model and firmware (if known)
+  - type: input
+    id: controller
+    attributes:
+      label: Controller model and firmware (if known)
+  - type: input
+    id: app_version
+    attributes:
+      label: E-Bike Companion version/build
+    validations:
+      required: true
+  - type: input
+    id: android_version
+    attributes:
+      label: Android version and device model
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection result
+      options:
+        - Connected successfully
+        - Connection attempted but failed
+        - Device discovered but not tested
+        - Not yet tested
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What did you directly observe?
+      description: Separate observed facts from assumptions. Do not claim control support based only on a connection.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Safe test method and repeatability
+      description: Describe read-only observations only. Do not test while riding or change safety-related settings.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations / untested capabilities
+      description: State what you did not test or could not confirm.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and privacy confirmation
+      options:
+        - label: I did not include GPS routes, exact location, serial numbers, credentials or unnecessary personal data.
+          required: true
+        - label: I understand this is a public report and the result is not verified until reviewed.
+          required: true
+        - label: I have not treated this report as evidence that write commands or safety-critical controls are supported.
+          required: true
