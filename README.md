@@ -18,7 +18,7 @@ Welcome to the public community space for **E-Bike Companion**. Use this reposit
 - [Security reporting guidance](SECURITY.md)
 - [Driver verification policy](DRIVER_VERIFICATION.md)
 
-**Tester sign-up note:** the website form opens a prefilled GitHub issue or an email draft for you to review and submit. It is not an automatic mailing list, and test access is not guaranteed. Do not put private contact details into a public GitHub issue.
+**Tester sign-up:** use the private application form at https://ebike.magservers.org/testers/. Applications require manual review; accepted testers will receive Google Play instructions by email when the test track is ready. The private application endpoint is being configured, so check the website for current availability. Do not put contact details or applications in public GitHub issues.
 
 ## Important safety and privacy principles
 
