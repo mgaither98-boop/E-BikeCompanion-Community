@@ -9,7 +9,7 @@ Welcome to the public community space for **E-Bike Companion**. Use this reposit
 
 ## Start here
 
-- [Join the tester list](https://ebike.magservers.org/testers/) — register interest in app, Bluetooth compatibility, offline maps/GPX, or read-only research testing.
+- [Join the tester list](https://ebike.magservers.org/testers/) — register interest in app, Bluetooth compatibility, offline maps/GPX, dashcam, or read-only research testing.
 - [Report a bug](https://github.com/mgaither98-boop/E-BikeCompanion-Community/issues/new?template=bug-report.yml)
 - [Submit compatibility evidence](https://github.com/mgaither98-boop/E-BikeCompanion-Community/issues/new?template=compatibility-report.yml)
 - [Open community issues](https://github.com/mgaither98-boop/E-BikeCompanion-Community/issues)
@@ -18,7 +18,7 @@ Welcome to the public community space for **E-Bike Companion**. Use this reposit
 - [Security reporting guidance](SECURITY.md)
 - [Driver verification policy](DRIVER_VERIFICATION.md)
 
-**Tester sign-up:** use the private application form at https://ebike.magservers.org/testers/. Applications require manual review; accepted testers will receive Google Play instructions by email when the test track is ready. The private application endpoint is being configured, so check the website for current availability. Do not put contact details or applications in public GitHub issues.
+**Tester sign-up:** use the private application form at https://ebike.magservers.org/testers/. The Google Play closed test is active. Applications require manual review; accepted testers receive opt-in and installation instructions by email. Please stay opted in continuously for at least 14 days, try the app during that time and share feedback. Applying on the website does not itself opt you into Google Play testing. Do not put contact details or applications in public GitHub issues.
 
 ## Important safety and privacy principles
 
